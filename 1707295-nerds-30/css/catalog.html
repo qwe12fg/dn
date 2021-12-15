@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог — Нёрдс»</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon/icon.svg" type="img\HTML-1-_-Нёрдс-_Copy_.7z">
+    <link rel="apple-touch-icon" href="favicon/180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+
+<body>
+
+<header>
+    <nav>
+      <a href="index.html" >
+        <img src="img\nerds-logo.svg" width="160" height="66" alt="логотип нердс"> 
+      </a> 
+      <ul>
+        <li><a href="blank.html">студия</a></li>
+        <li><a href="blank.html">клиенты</a></li>
+        <li><a href="catalog.html">магазин</a></li>
+        <li><a href="blank.html">контакты</a></li>
+      </ul>
+      <img src="img\cart-icon.svg" width="15" height="15" alt="иконка корзины">
+    </nav>
+  </header>
+
+  <main>
+      <section>
+        <h2>Фильтр товаров</h2>
+        <form method="get" action="https://echo.htmlacademy.ru">
+            <fieldset>
+                <legend>Сортировать:</legend>
+                <ul>
+                    <li><a>по цене</a> </li>
+                    <li><a href ="#">по типу</a> </li>
+                    <li><a href ="#">по назначению</a> </li>
+                </ul>
+                <li>
+                    <a href="#">^</a>
+                </li>
+                <li>
+                    <a>^</a>
+                </li>
+            </fieldset>
+      </section>
+
+      <section>
+        <h2>Фильтр товаров</h2>
+        <form method="get" action="https://echo.htmlacademy.ru">
+            <fieldset>
+                <legend>стоимость:</legend>
+                <div class="range">
+                    <div class="line"></div>
+                    <div class="line-left"></div>
+                    <div class="range-left">
+                        <img src="img\Ellipse 1.svg"width="20" height="20" alt="левый ползунок"></div>
+                    <div class="range-right">
+                        <img src="img\Ellipse 3.svg"width="20" height="20" alt="правый ползунок"></div>
+                </div>
+                <ul>
+                    <label>от </label><textarea name="comment" id="comment-field" rows="1">0</textarea>
+                    <label> до </label><textarea name="comment" id="comment-field" rows="1">15000</textarea>
+                </ul> 
+            </fieldset>
+          <fieldset>
+            <legend>сетка:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="product-group" id="filter" checked>
+                <label for="filter">Адаптивная</label>
+              </li>
+              <li>
+                <input type="radio" name="product-group" id="filterq" checked>
+                <label for="filterq">Фиксированная</label>
+              </li>
+              <li>
+                <input type="radio" name="product-group" id="filterw" checked>
+                <label for="filterw">Резиновая</label>
+              </li>
+            <ul>
+          </fieldset>
+          <fieldset>
+            <legend>особенности:</legend>
+            <ul>
+                <li>
+                  <input type="checkbox" name="slaider" value="shaving" id="filtere" checked>
+                  <label for="filtere">Слайдер</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="blok" value="shaving" id="filterr" >
+                    <label for="filterr">Блок преимуществ</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="novosti" value="shaving" id="filtert" checked>
+                    <label for="filtert">Новости</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="gallerea" value="shaving" id="filterrw" >
+                    <label for="filterrw">Галерея</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="korzina" value="shaving" id="filterre" >
+                    <label for="filterre">Корзина</label>
+                </li>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
+      </section>
+      
+      <section>
+        <h2>список товаров</h2>
+        <ul>
+            <li>
+              <a href="product.html">
+                <p>
+                  <img src="img\img-sedona 1.jpg" width="358" height="578" alt="SEDONA">
+                </p>
+              </a>
+              <h3>SEDONA</h3>
+              <p>Информационный сайт <br> для туристов<br>
+                <button type="button">9900 ₽</button>
+              </p>
+            </li>
+          
+          <li>
+            <a href="product.html">
+              <p>
+                <img src="img\Mask Group.jpg" width="358" height="578" alt="Pink App">
+              </p>
+            </a>
+            <h3>Pink App</h3>
+            <p>Продуктовый лендинг <br>приложения для iOS и Android<br>
+              <button type="button">9900 ₽</button>
+            </p>
+          </li>
+
+          <li>
+            <a href="product.html">
+              <p>
+                <img src="img\Mask Group 2.jpg" width="358" height="578" alt="Barbershop">
+              </p>
+            </a>
+            <h3>Barbershop</h3>
+            <p>Сайт салона красоты. <br>Для мужчин, да.<br>
+              <button type="button">9900 ₽</button>
+            </p>
+          </li>
+
+          <li>
+            <a href="product.html">
+              <p>
+                <img src="img\Mask Group 3.jpg" width="358" height="578" alt="MISHKA">
+              </p>
+            </a>
+            <h3>MISHKA</h3>
+            <p>Интернет-магазин <br>>вязаных игрушек<br>
+              <button type="button">9900 ₽</button>
+            </p>
+          </li>
+
+          <li>
+            <a href="product.html">
+              <p>
+                <img src="img\Mask Group 4.jpg" width="358" height="578" alt="курсы">
+              </p>
+            </a>
+            <h3>A Plus</h3>
+            <p>Лендинг курсов повышения <br>квалификации<br>
+              <button type="button">9900 ₽</button>
+            </p>
+          </li>
+
+          <li>
+            <a href="product.html">
+              <p>
+                <img src="img\Mask Group 5.jpg" width="358" height="578" alt="крафтового кваса">
+              </p>
+            </a>
+            <h3>КВАСТ</h3>
+            <p>Промо-сайт производителя<br>>крафтового кваса<br>
+              <button type="button">9900 ₽</button>
+            </p>
+          </li>
+        </ul>
+        <li>
+            <a>1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">следующая</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+      
+    <footer>
+        <section>
+          <h2>NЁRDS DESIGN STUDIO</h2>
+          <p>
+            191186, Санкт-Петербург, <br>>ул. Б. Конюшенная, д. 19/8
+          </p>
+          <p>
+            тел. <a href="tel:+7812757575">+7 (812) 275-75-75</a> 
+          </p>
+            <a href="blank.html">Напишите нам</a>
+        </section>
+        <section>
+          <h2>Как до нас добраться</h2>
+          <!-- Здесь будет карта -->
+          <button type="button">Закрыть</button>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <a href="#">Вконтакте</a>
+            </li>
+            <li>
+              <a href="#">Фейсбук</a>
+            </li>
+            <li>
+              <a href="#">Инстаграм</a>
+            </li>
+            <li>
+              <h3>Давайте дружить, это выгодно!</h3>
+              <p>Скидка 10% для друзей из социальных сетей.</p>
+            </li>  
+          </ul>
+        </section>
+      </footer>   
+        
+      <section>
+        <h2>Напишите нам</h2>
+        
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label fro="name">Ваше имя:</label>
+            <br>
+            <input type="text" name="username" id="name"placeholder="Имя Фамилия"> 
+         </p>
+         <p>
+          <label for="login-login">Логин</label>
+          <br>
+          <input id="login-login" type="email" name="login" placeholder="email@example.com">
+        </p>
+        <p>
+          <label>Текст письма:</label>
+          <br>
+          <input  type="text" name="username" placeholder="В свободной форме">
+        </p>
+        <p>
+          <button type="submit">Отправить</button>
+        </form>
+        <button type="button">Закрыть</button>
+      </section>
+      
+      </section>
+  
+  
+    </body>
+  </html>
