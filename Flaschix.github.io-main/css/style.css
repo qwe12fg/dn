@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(22, 126, 30);
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4{
+    font-size: 18px;
+    padding: 5px;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.background-color-dark{
+    background-color: rgb(87, 163, 68);
+    color: rgb(15, 2, 2);
+}
+
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-flex > li:before {content: '| ';}
+
+.nav-flex-item{
+    text-align: center;
+    margin: 30px 100px;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+header{
+    
+}
+
+.header-title{
+    height: 100vh;
+    width: 100%;
+    background: url(../assets/fon.jpg) no-repeat;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.compBox{
+    padding: 10px;
+}
+
+.competions{
+    margin-top: 60px;
+    background-color: rgb(209, 221, 209);
+    color: rgb(41, 37, 37);
+    height: 300px;
+    width: 100%;
+}
+
+.resumeBox{
+    margin-top: 60px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(126, 50, 27);
+    height: 150px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.contactBox{
+    margin-top: 60px;
+    background-color: plum;
+    color: darkred;
+    height: 50px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.contactP{
+    display: flex;
+    padding: 10px;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;    
+}
+
+.resumedivs{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.resumeChild + .resumeChild{
+    margin-left: 10%;
+}
+
+.flexP + .flexP{
+    margin-left: 10%;
+}
+
+
+.pictureComp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.header-item{
+    padding: 15px;
+    color: white;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.warpper{
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.picture{
+    margin:0;
+    float:right;
+    max-width:100%;
+    height:auto; 
+}
+
+.flex-row-div{
+    flex: 1 1 200px;
+    padding: 10px;
+}
+
+.foot{
+    position: fixed;
+    left: 0; bottom: 0; 
+    padding: 10px 0;
+    background: aqua;
+    color: #fff; 
+    width: 100%;
+}
+
+.YourContactInfo{
+    padding: 5px 0px;
+}

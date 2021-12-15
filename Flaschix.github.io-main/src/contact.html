@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связь</title>
+    <!-- <link rel="stylesheet" href="../css/clear.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <h2>Связь</h2>
+
+    <div>
+        <h3>Есть вопросы?</h3>
+        <div class="radioButton">
+            <p>Как вам удобней получить ответ:</p>
+            <div>
+                <input type="radio" class="rdBt" name="contact" value="email" checked="checked">
+                <label>По почте</label>
+            </div>
+            <div>
+                <input type="radio" class="rdBt" name="contact" value="phone">
+                <label>По телефону</label>
+            </div>
+            <div>
+                <input type="radio" class="rdBt" name="contact" value="NO">
+                <label>Не нужен ответ</label>
+            </div>
+        </div>
+
+        <div>
+            <p>Укажите тему вопроса</p>
+            <input list="themes" id="idthme" name="dtList" />
+
+            <datalist id="themes">
+                <option value="Работа">
+                <option value="Дом">
+                <option value="Улица">
+                <option value="Хз">
+            </datalist>
+        </div>
+
+        <div>
+            <p>И ещё вопрос</p>
+            <div>
+                <input type="checkbox" name="check" id="" value="Может так">
+                <label for="check">Может так</label>
+                <input type="checkbox" name="check" id="" value="Или не так">
+                <label for="check">Или не так</label>
+                <input type="checkbox" name="check" id="" value="Иначе">
+                <label for="check">Иначе</label>
+            </div>
+        </div>
+
+        <div>
+            <div class="YourContactInfo">
+                <label for="Name">Your name</label>
+                <input type="text" name="Name" id="txtName">
+            </div>
+            <div class="YourContactInfo">
+                <label for="Mail">Your mail</label>
+                <input type="text" name="Mail" id="txtMail">
+            </div>
+            <div class="YourContactInfo">
+                <label for="Phone">Your phone</label>
+                <input type="text" name="Phone" id="txtPhone">
+            </div>
+        </div>
+
+        <div>
+            <p>Ваш вопрос</p>
+            <textarea name="" id="txtArea" cols="30" rows="10"></textarea>
+        </div>
+
+        <button id="btnSend">Отправить</button>
+    </div>
+
+    <div>
+        <table border="1" style="background-color: aquamarine;">
+            <caption>Контакты</caption>
+            <tr>
+                <td>Телефон</td>
+                <td>8-800-555-35-35</td>
+            </tr>
+            <tr>
+                <td>Почта</td>
+                <td>lev20@uni-dubna.ru</td>
+            </tr>
+            <tr>
+                <td>Адрес</td>
+                <td>Университескя 6</td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin-top: 20px;">
+        <a href="./index.html">На главную</a>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
